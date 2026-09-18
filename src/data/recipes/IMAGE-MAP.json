@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "recipe": "Panqueca de Banana",
+    "image": "/images/recipes/001-panqueca-de-banana.jpg",
+    "localFile": "001-panqueca-de-banana.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 2,
+    "recipe": "Panqueca de Maçã e Canela",
+    "image": "/images/recipes/002-panqueca-de-maca-e-canela.jpg",
+    "localFile": "002-panqueca-de-maca-e-canela.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 3,
+    "recipe": "Omelete de Queijo",
+    "image": "/images/recipes/003-omelete-de-queijo.jpg",
+    "localFile": "003-omelete-de-queijo.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 4,
+    "recipe": "Omelete de Legumes",
+    "image": "/images/recipes/004-omelete-de-legumes.jpg",
+    "localFile": "004-omelete-de-legumes.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 5,
+    "recipe": "Mingau de Aveia com Banana",
+    "image": "/images/recipes/005-mingau-de-aveia-com-banana.jpg",
+    "localFile": "005-mingau-de-aveia-com-banana.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 6,
+    "recipe": "Mingau de Fubá",
+    "image": "/images/recipes/006-mingau-de-fuba.jpg",
+    "localFile": "006-mingau-de-fuba.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 7,
+    "recipe": "Tapioca com Queijo",
+    "image": "/images/recipes/007-tapioca-com-queijo.jpg",
+    "localFile": "007-tapioca-com-queijo.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 8,
+    "recipe": "Tapioca com Frango",
+    "image": "/images/recipes/008-tapioca-com-frango.jpg",
+    "localFile": "008-tapioca-com-frango.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 9,
+    "recipe": "Crepioca de Tomate",
+    "image": "/images/recipes/009-crepioca-de-tomate.jpg",
+    "localFile": "009-crepioca-de-tomate.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 10,
+    "recipe": "Pão com Ovo",
+    "image": "/images/recipes/010-pao-com-ovo.jpg",
+    "localFile": "010-pao-com-ovo.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 11,
+    "recipe": "Pão Integral com Ricota",
+    "image": "/images/recipes/011-pao-integral-com-ricota.jpg",
+    "localFile": "011-pao-integral-com-ricota.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 12,
+    "recipe": "Cuscuz com Ovo",
+    "image": "/images/recipes/012-cuscuz-com-ovo.jpg",
+    "localFile": "012-cuscuz-com-ovo.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 13,
+    "recipe": "Cuscuz com Banana",
+    "image": "/images/recipes/013-cuscuz-com-banana.jpg",
+    "localFile": "013-cuscuz-com-banana.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 14,
+    "recipe": "Iogurte com Granola",
+    "image": "/images/recipes/014-iogurte-com-granola.jpg",
+    "localFile": "014-iogurte-com-granola.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 15,
+    "recipe": "Aveia de Geladeira com Morango",
+    "image": "/images/recipes/015-aveia-de-geladeira-com-morango.jpg",
+    "localFile": "015-aveia-de-geladeira-com-morango.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 16,
+    "recipe": "Torrada com Abacate",
+    "image": "/images/recipes/016-torrada-com-abacate.jpg",
+    "localFile": "016-torrada-com-abacate.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 17,
+    "recipe": "Pão de Queijo de Frigideira",
+    "image": "/images/recipes/017-pao-de-queijo-de-frigideira.jpg",
+    "localFile": "017-pao-de-queijo-de-frigideira.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 18,
+    "recipe": "Bolo de Milho de Caneca",
+    "image": "/images/recipes/018-bolo-de-milho-de-caneca.jpg",
+    "localFile": "018-bolo-de-milho-de-caneca.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 19,
+    "recipe": "Bowl de Frutas com Aveia",
+    "image": "/images/recipes/019-bowl-de-frutas-com-aveia.jpg",
+    "localFile": "019-bowl-de-frutas-com-aveia.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 20,
+    "recipe": "Wrap de Café da Manhã",
+    "image": "/images/recipes/020-wrap-de-cafe-da-manha.jpg",
+    "localFile": "020-wrap-de-cafe-da-manha.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 21,
+    "recipe": "Arroz com Frango",
+    "image": "/images/recipes/021-arroz-com-frango.jpg",
+    "localFile": "021-arroz-com-frango.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 22,
+    "recipe": "Macarrão com Carne Moída",
+    "image": "/images/recipes/022-macarrao-com-carne-moida.jpg",
+    "localFile": "022-macarrao-com-carne-moida.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 23,
+    "recipe": "Frango Grelhado com Batata",
+    "image": "/images/recipes/023-frango-grelhado-com-batata.jpg",
+    "localFile": "023-frango-grelhado-com-batata.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 24,
+    "recipe": "Escondidinho de Frango",
+    "image": "/images/recipes/024-escondidinho-de-frango.jpg",
+    "localFile": "024-escondidinho-de-frango.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 25,
+    "recipe": "Purê com Carne Moída",
+    "image": "/images/recipes/025-pure-com-carne-moida.jpg",
+    "localFile": "025-pure-com-carne-moida.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 26,
+    "recipe": "Arroz com Legumes",
+    "image": "/images/recipes/026-arroz-com-legumes.jpg",
+    "localFile": "026-arroz-com-legumes.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 27,
+    "recipe": "Almôndegas ao Molho",
+    "image": "/images/recipes/027-almondegas-ao-molho.jpg",
+    "localFile": "027-almondegas-ao-molho.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 28,
+    "recipe": "Peixe Assado com Batata",
+    "image": "/images/recipes/028-peixe-assado-com-batata.jpg",
+    "localFile": "028-peixe-assado-com-batata.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 29,
+    "recipe": "Lasanha de Frango",
+    "image": "/images/recipes/029-lasanha-de-frango.jpg",
+    "localFile": "029-lasanha-de-frango.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 30,
+    "recipe": "Risoto de Abóbora",
+    "image": "/images/recipes/030-risoto-de-abobora.jpg",
+    "localFile": "030-risoto-de-abobora.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 31,
+    "recipe": "Bife Acebolado com Arroz",
+    "image": "/images/recipes/031-bife-acebolado-com-arroz.jpg",
+    "localFile": "031-bife-acebolado-com-arroz.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 32,
+    "recipe": "Frango Desfiado com Milho",
+    "image": "/images/recipes/032-frango-desfiado-com-milho.jpg",
+    "localFile": "032-frango-desfiado-com-milho.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 33,
+    "recipe": "Nhoque de Batata ao Sugo",
+    "image": "/images/recipes/033-nhoque-de-batata-ao-sugo.jpg",
+    "localFile": "033-nhoque-de-batata-ao-sugo.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 34,
+    "recipe": "Macarrão de Panela Única",
+    "image": "/images/recipes/034-macarrao-de-panela-unica.jpg",
+    "localFile": "034-macarrao-de-panela-unica.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 35,
+    "recipe": "Torta Salgada de Legumes",
+    "image": "/images/recipes/035-torta-salgada-de-legumes.jpg",
+    "localFile": "035-torta-salgada-de-legumes.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 36,
+    "recipe": "Quibe de Forno",
+    "image": "/images/recipes/036-quibe-de-forno.jpg",
+    "localFile": "036-quibe-de-forno.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 37,
+    "recipe": "Frango ao Molho de Laranja",
+    "image": "/images/recipes/037-frango-ao-molho-de-laranja.jpg",
+    "localFile": "037-frango-ao-molho-de-laranja.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 38,
+    "recipe": "Tilápia com Arroz de Coco",
+    "image": "/images/recipes/038-tilapia-com-arroz-de-coco.jpg",
+    "localFile": "038-tilapia-com-arroz-de-coco.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 39,
+    "recipe": "Lentilha com Arroz",
+    "image": "/images/recipes/039-lentilha-com-arroz.jpg",
+    "localFile": "039-lentilha-com-arroz.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 40,
+    "recipe": "Omelete Recheada com Arroz",
+    "image": "/images/recipes/040-omelete-recheada-com-arroz.jpg",
+    "localFile": "040-omelete-recheada-com-arroz.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 41,
+    "recipe": "Polenta com Molho de Carne",
+    "image": "/images/recipes/041-polenta-com-molho-de-carne.jpg",
+    "localFile": "041-polenta-com-molho-de-carne.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 42,
+    "recipe": "Bowl de Frango e Batata-Doce",
+    "image": "/images/recipes/042-bowl-de-frango-e-batata-doce.jpg",
+    "localFile": "042-bowl-de-frango-e-batata-doce.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 43,
+    "recipe": "Arroz de Forno com Queijo",
+    "image": "/images/recipes/043-arroz-de-forno-com-queijo.jpg",
+    "localFile": "043-arroz-de-forno-com-queijo.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 44,
+    "recipe": "Panqueca Salgada de Carne",
+    "image": "/images/recipes/044-panqueca-salgada-de-carne.jpg",
+    "localFile": "044-panqueca-salgada-de-carne.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 45,
+    "recipe": "Salada Morna de Grão-de-Bico",
+    "image": "/images/recipes/045-salada-morna-de-grao-de-bico.jpg",
+    "localFile": "045-salada-morna-de-grao-de-bico.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 46,
+    "recipe": "Sanduíche Natural de Frango",
+    "image": "/images/recipes/046-sanduiche-natural-de-frango.jpg",
+    "localFile": "046-sanduiche-natural-de-frango.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 47,
+    "recipe": "Sanduíche de Queijo e Tomate",
+    "image": "/images/recipes/047-sanduiche-de-queijo-e-tomate.jpg",
+    "localFile": "047-sanduiche-de-queijo-e-tomate.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 48,
+    "recipe": "Bolo de Banana",
+    "image": "/images/recipes/048-bolo-de-banana.jpg",
+    "localFile": "048-bolo-de-banana.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 49,
+    "recipe": "Muffin de Maçã",
+    "image": "/images/recipes/049-muffin-de-maca.jpg",
+    "localFile": "049-muffin-de-maca.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 50,
+    "recipe": "Pão de Queijo Assado",
+    "image": "/images/recipes/050-pao-de-queijo-assado.jpg",
+    "localFile": "050-pao-de-queijo-assado.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 51,
+    "recipe": "Palitos de Cenoura com Homus",
+    "image": "/images/recipes/051-palitos-de-cenoura-com-homus.jpg",
+    "localFile": "051-palitos-de-cenoura-com-homus.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 52,
+    "recipe": "Cookies de Aveia",
+    "image": "/images/recipes/052-cookies-de-aveia.jpg",
+    "localFile": "052-cookies-de-aveia.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 53,
+    "recipe": "Tapioca de Banana",
+    "image": "/images/recipes/053-tapioca-de-banana.jpg",
+    "localFile": "053-tapioca-de-banana.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 54,
+    "recipe": "Iogurte com Manga",
+    "image": "/images/recipes/054-iogurte-com-manga.jpg",
+    "localFile": "054-iogurte-com-manga.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 55,
+    "recipe": "Maçã Assada",
+    "image": "/images/recipes/055-maca-assada.jpg",
+    "localFile": "055-maca-assada.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 56,
+    "recipe": "Pipoca Caseira",
+    "image": "/images/recipes/056-pipoca-caseira.jpg",
+    "localFile": "056-pipoca-caseira.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 57,
+    "recipe": "Bolinho de Arroz",
+    "image": "/images/recipes/057-bolinho-de-arroz.jpg",
+    "localFile": "057-bolinho-de-arroz.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 58,
+    "recipe": "Creme de Abacate",
+    "image": "/images/recipes/058-creme-de-abacate.jpg",
+    "localFile": "058-creme-de-abacate.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 59,
+    "recipe": "Torrada com Pasta de Grão-de-Bico",
+    "image": "/images/recipes/059-torrada-com-pasta-de-grao-de-bico.jpg",
+    "localFile": "059-torrada-com-pasta-de-grao-de-bico.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 60,
+    "recipe": "Panquequinha de Aveia",
+    "image": "/images/recipes/060-panquequinha-de-aveia.jpg",
+    "localFile": "060-panquequinha-de-aveia.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 61,
+    "recipe": "Wrap de Atum",
+    "image": "/images/recipes/061-wrap-de-atum.jpg",
+    "localFile": "061-wrap-de-atum.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 62,
+    "recipe": "Frutas com Pasta de Amendoim",
+    "image": "/images/recipes/062-frutas-com-pasta-de-amendoim.jpg",
+    "localFile": "062-frutas-com-pasta-de-amendoim.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 63,
+    "recipe": "Muffin de Cenoura",
+    "image": "/images/recipes/063-muffin-de-cenoura.jpg",
+    "localFile": "063-muffin-de-cenoura.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 64,
+    "recipe": "Pão na Chapa com Requeijão",
+    "image": "/images/recipes/064-pao-na-chapa-com-requeijao.jpg",
+    "localFile": "064-pao-na-chapa-com-requeijao.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 65,
+    "recipe": "Biscoito de Polvilho",
+    "image": "/images/recipes/065-biscoito-de-polvilho.jpg",
+    "localFile": "065-biscoito-de-polvilho.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 66,
+    "recipe": "Sopa de Legumes",
+    "image": "/images/recipes/066-sopa-de-legumes.jpg",
+    "localFile": "066-sopa-de-legumes.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 67,
+    "recipe": "Creme de Batata",
+    "image": "/images/recipes/067-creme-de-batata.jpg",
+    "localFile": "067-creme-de-batata.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 68,
+    "recipe": "Omelete de Forno",
+    "image": "/images/recipes/068-omelete-de-forno.jpg",
+    "localFile": "068-omelete-de-forno.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 69,
+    "recipe": "Arroz Cremoso com Frango",
+    "image": "/images/recipes/069-arroz-cremoso-com-frango.jpg",
+    "localFile": "069-arroz-cremoso-com-frango.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 70,
+    "recipe": "Macarrão com Molho de Tomate",
+    "image": "/images/recipes/070-macarrao-com-molho-de-tomate.jpg",
+    "localFile": "070-macarrao-com-molho-de-tomate.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 71,
+    "recipe": "Purê de Batata com Legumes",
+    "image": "/images/recipes/071-pure-de-batata-com-legumes.jpg",
+    "localFile": "071-pure-de-batata-com-legumes.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 72,
+    "recipe": "Panqueca Salgada de Queijo",
+    "image": "/images/recipes/072-panqueca-salgada-de-queijo.jpg",
+    "localFile": "072-panqueca-salgada-de-queijo.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 73,
+    "recipe": "Sopa de Frango com Arroz",
+    "image": "/images/recipes/073-sopa-de-frango-com-arroz.jpg",
+    "localFile": "073-sopa-de-frango-com-arroz.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 74,
+    "recipe": "Caldo de Abóbora",
+    "image": "/images/recipes/074-caldo-de-abobora.jpg",
+    "localFile": "074-caldo-de-abobora.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 75,
+    "recipe": "Arroz com Ovo e Legumes",
+    "image": "/images/recipes/075-arroz-com-ovo-e-legumes.jpg",
+    "localFile": "075-arroz-com-ovo-e-legumes.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 76,
+    "recipe": "Batata Recheada com Frango",
+    "image": "/images/recipes/076-batata-recheada-com-frango.jpg",
+    "localFile": "076-batata-recheada-com-frango.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 77,
+    "recipe": "Cuscuz Paulista de Legumes",
+    "image": "/images/recipes/077-cuscuz-paulista-de-legumes.jpg",
+    "localFile": "077-cuscuz-paulista-de-legumes.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 78,
+    "recipe": "Suflê de Cenoura",
+    "image": "/images/recipes/078-sufle-de-cenoura.jpg",
+    "localFile": "078-sufle-de-cenoura.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 79,
+    "recipe": "Salada de Frango Morna",
+    "image": "/images/recipes/079-salada-de-frango-morna.jpg",
+    "localFile": "079-salada-de-frango-morna.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 80,
+    "recipe": "Quinoa com Legumes",
+    "image": "/images/recipes/080-quinoa-com-legumes.jpg",
+    "localFile": "080-quinoa-com-legumes.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 81,
+    "recipe": "Creme de Mandioquinha",
+    "image": "/images/recipes/081-creme-de-mandioquinha.jpg",
+    "localFile": "081-creme-de-mandioquinha.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 82,
+    "recipe": "Escondidinho de Carne",
+    "image": "/images/recipes/082-escondidinho-de-carne.jpg",
+    "localFile": "082-escondidinho-de-carne.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 83,
+    "recipe": "Legumes Assados com Queijo",
+    "image": "/images/recipes/083-legumes-assados-com-queijo.jpg",
+    "localFile": "083-legumes-assados-com-queijo.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 84,
+    "recipe": "Caldo de Feijão",
+    "image": "/images/recipes/084-caldo-de-feijao.jpg",
+    "localFile": "084-caldo-de-feijao.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 85,
+    "recipe": "Torta de Frango de Liquidificador",
+    "image": "/images/recipes/085-torta-de-frango-de-liquidificador.jpg",
+    "localFile": "085-torta-de-frango-de-liquidificador.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 86,
+    "recipe": "Vitamina de Banana",
+    "image": "/images/recipes/086-vitamina-de-banana.jpg",
+    "localFile": "086-vitamina-de-banana.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 87,
+    "recipe": "Vitamina de Morango",
+    "image": "/images/recipes/087-vitamina-de-morango.jpg",
+    "localFile": "087-vitamina-de-morango.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 88,
+    "recipe": "Suco de Laranja",
+    "image": "/images/recipes/088-suco-de-laranja.jpg",
+    "localFile": "088-suco-de-laranja.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 89,
+    "recipe": "Suco de Maçã",
+    "image": "/images/recipes/089-suco-de-maca.jpg",
+    "localFile": "089-suco-de-maca.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 90,
+    "recipe": "Suco de Melancia",
+    "image": "/images/recipes/090-suco-de-melancia.jpg",
+    "localFile": "090-suco-de-melancia.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 91,
+    "recipe": "Smoothie de Manga",
+    "image": "/images/recipes/091-smoothie-de-manga.jpg",
+    "localFile": "091-smoothie-de-manga.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 92,
+    "recipe": "Leite com Cacau",
+    "image": "/images/recipes/092-leite-com-cacau.jpg",
+    "localFile": "092-leite-com-cacau.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 93,
+    "recipe": "Água Aromatizada com Limão",
+    "image": "/images/recipes/093-agua-aromatizada-com-limao.jpg",
+    "localFile": "093-agua-aromatizada-com-limao.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 94,
+    "recipe": "Chá de Maçã e Canela",
+    "image": "/images/recipes/094-cha-de-maca-e-canela.jpg",
+    "localFile": "094-cha-de-maca-e-canela.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 95,
+    "recipe": "Café com Leite",
+    "image": "/images/recipes/095-cafe-com-leite.jpg",
+    "localFile": "095-cafe-com-leite.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 96,
+    "recipe": "Pudim de Leite",
+    "image": "/images/recipes/096-pudim-de-leite.jpg",
+    "localFile": "096-pudim-de-leite.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 97,
+    "recipe": "Mousse de Maracujá",
+    "image": "/images/recipes/097-mousse-de-maracuja.jpg",
+    "localFile": "097-mousse-de-maracuja.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 98,
+    "recipe": "Gelatina com Frutas",
+    "image": "/images/recipes/098-gelatina-com-frutas.jpg",
+    "localFile": "098-gelatina-com-frutas.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 99,
+    "recipe": "Banana Assada com Canela",
+    "image": "/images/recipes/099-banana-assada-com-canela.jpg",
+    "localFile": "099-banana-assada-com-canela.jpg",
+    "status": "imagem ainda não fornecida"
+  },
+  {
+    "id": 100,
+    "recipe": "Creme de Frutas",
+    "image": "/images/recipes/100-creme-de-frutas.jpg",
+    "localFile": "100-creme-de-frutas.jpg",
+    "status": "imagem ainda não fornecida"
+  }
+]

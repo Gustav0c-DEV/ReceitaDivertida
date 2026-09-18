@@ -1,18 +1,12 @@
-const imageIds = [
-  "1533089860892-a7c6f0a88666", "1495214783159-3503fd1b572d", "1525351484163-7529414344d8", "1528207776546-365bb710ee93", "1551183053-bf91a1d81141", "1551892374-ecf8754cf8b0", "1551218808-94e220e084d2", "1473093295043-cdd812d0e601", "1565299624946-b28f40a0ae38", "1556761223-4c4282c73f77", "1504674900247-0877df9cc836", "1498837167922-ddd27525d352", "1490645935967-10de6ba17061", "1512621776951-a57141f2eefd", "1546069901-ba9599a7e63c", "1563379926898-05f4575a45d8", "1571997478779-2adcbbe9ab2f", "1572449043416-55f4685c9bb7", "1540189549336-e6e99c3679fe", "1543353071-10c8ba85a904",
-  "1504754524776-8f4f37790ca0", "1482049016688-2d3e1b311543", "1484723091739-30a097e8f929", "1551024506-0bccd828d307", "1547592180-85f173990554", "1515003197210-e0cd71810b5f", "1512058564366-18510be2db19", "1553530666-ba11a7da3888", "1488477181946-6428a0291777", "1601050690597-df0568f70950", "1476718406336-bb5a9690ee2a", "1555949258-eb67b1ef0ceb", "1541592106381-b31e9677c0e5", "1543352634-a1c7e66f34c1", "1543362906-acfc16c67564", "1533777857889-4be7c70b33f7", "1517248135467-4c7edcad34c4", "1521305916504-4a1121188585", "1528712306091-5a2e1d8f0d72", "1552332386-f8dd00dc2f85",
-  "1559847844-5315695dadae", "1565958011703-44f9829ba187", "1568901346375-23c9450c58cd", "1571877227200-a0d98ea607e9", "1572448862260-4b2d8b74c6b5", "1573225342350-16731b9a6b2f", "1574484284002-952d92456975", "1580013759032-c96505e4e1e4", "1587314168485-3236d5c9d8b4", "1592924357228-91a4daadcfea", "1598514982901-1fae3a0f4b8b", "1603133872878-684f208fb84b", "1603894584373-5ac82c43b7ab", "1606756790138-838a5d3dc2c4", "1608032364895-8f02f2a6d1aa", "1610614819513-9c6d4f8d3b5e", "1612874742237-4b8f6f1e4b22", "1617694982901-1fae3a0f4b8b", "1625944525533-473f1a8c1c3d", "1626082927389-2f7d5a9e8c1b",
-  "1632778149955-8d0a37b7c6e1", "1633504581786-9d3e4f0a6b2c", "1635321593217-40050ad13c7b", "1640717151150-1f9b5e3a7c2d", "1645177628172-a94b4a91d5e3", "1647052730473-2c1e5a7d9b8f", "1651055982367-1f9e6a4c2b8d", "1652270439382-1d4e7f8a5c3b", "1654863404432-8c7a1d5e9b0f", "1655725701750-8e6f6d1d9f4c", "1668234403986-cf5a8e5b1d7c", "1673446581409-87b9e2f1c4d6", "1675596067397-3a6f5d8e1c2b", "1680503147719-1a4c7e9d3b5f", "1680992042818-0a6d4f2b8c1e", "1681515265514-d7a5e3c9b2f0", "1682685797828-2c7b9a5e1d4f", "1684573770548-1d5e8a3c7b9f", "1687146458225-9f3b5d1c7e2a", "1690983323518-4c8a1e6d5b3f",
-  "1692401735303-6f1b4d8c2a7e", "1694533193284-0c5e7a9d3b1f", "1696254801839-8b2d4f6a1c7e", "1698847631861-5a3d7f9c2b6e", "1700470431471-2e6b8c4a0d9f", "1703211124516-7c2a5e9b1d4f", "1705147186021-3f8a6c1e5b7d", "1707039334092-9d1f4b7a6c3e", "1708913422499-1e7d5b3c9a4f", "1710622184937-6a2c8e5d1b7f", "1712481630207-4b9e1d7c5a3f", "1714937420973-8d5c2a6f1b7e", "1717247606414-3c7e9a1d5b8f", "1719528168334-5f1b7d3a9c2e", "1721846023975-7a3d9e1c5b6f", "1724198889463-2b8f5d1a7c4e", "1726634298221-9c4a6e2b1d7f", "1728991045317-1f6c8a3e5b9d", "1731307944826-5e2a7c9d1b4f", "1733886141552-8a3d5f1c7e9b"
-].map((id) => `https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=900&q=85`);
+import imageMap from "./recipes/IMAGE-MAP.json";
 
-const stableImageRefs = [
-  "premium_photo-1671377387797-8d3307a546a6", "photo-1515003197210-e0cd71810b5f", "photo-1624715080044-8d9e1e5aa3b2", "photo-1589152144820-692b189e0b34", "premium_photo-1663126351065-741a1d338b5d", "photo-1518779578993-ec3579fee39f", "photo-1545216560-68430ad77342", "photo-1505253758473-96b7015fcd40", "premium_photo-1661587759162-d2dd4934ce33", "photo-1543353071-10c8ba85a904", "photo-1630445396366-8dea03c85ead", "photo-1708987379841-2badb0d3a95a", "premium_photo-1681826951620-daa615b4144e", "photo-1623800849430-13c191263e9f", "photo-1623800849466-435f89f567ce", "photo-1623800849410-04f915273282", "premium_photo-1663126325483-886b1a08ba8e", "photo-1623800850352-270214d332e8", "photo-1594910015880-83c22b9722c4", "photo-1708989173600-dbf8a37205dd",
-  "premium_photo-1669742928007-71b99d6ab1dd", "photo-1702234584726-b75901b17702", "photo-1708989176673-e24d34ede8e2", "photo-1645432524603-2a5172479006", "premium_photo-1726711335438-874c82f69f31", "photo-1601702538934-efffab67ab65", "photo-1645432524571-0e469b22e43f", "photo-1645432524528-ae76145f67b0", "premium_photo-1673525279725-1664b7517b71", "photo-1708989177004-eb47b99877f4", "photo-1708989176728-a5c9a3b08fe9", "photo-1627035537702-ddca174d7987", "premium_photo-1726786807362-6f2555166804", "photo-1590701390714-e979c0ccdd1b", "photo-1654828819532-de14593c5552", "photo-1543352634-a1c51d9f1fa7", "premium_photo-1726826611920-8850f4668438", "photo-1575153409612-907131447a36", "photo-1710887869102-36fd5d1f3352", "photo-1606843046080-45bf7a23c39f",
-  "premium_photo-1663089153252-31110770d3b7", "photo-1709138948953-0f59c97308c0", "photo-1618153351015-e2f282e09d94", "photo-1498588747262-0f2241707d13", "premium_photo-1661295656763-2db9d94c6a7c", "photo-1589985269035-ab4c827b76e0", "photo-1651802556313-d073828d6755", "photo-1652923833480-2fc5eea72300", "premium_photo-1712508133482-14fffbfeb1d2", "photo-1653368562557-c1cabb2c91c2", "photo-1652113067351-aeedb790505f", "photo-1575835638288-74138ce93c0e", "premium_photo-1667114974940-62934e26be3b", "photo-1654221149399-4d50d6ce336c", "photo-1651802556296-ebe67794330d", "photo-1651802556307-50adcdd44771", "premium_photo-1671377667767-6e75fd6f2802", "photo-1651802555957-6ed7ba8f53e1", "photo-1651802556259-aa8f0d062c9c", "photo-1651802556339-9bcf3369fe7a",
-  "premium_photo-1663090689410-d5cf6f2c9120", "photo-1651802556056-e88256678fa1", "photo-1651802556352-ee061cf20900", "premium_photo-1729796193609-865132c7c50a", "photo-1652237542560-c77b79e3fd56", "photo-1652366501407-86ad3ed442fd", "photo-1652281901129-271a4561a6eb", "premium_photo-1726718432343-4c5f02f5af22", "photo-1651802556072-fe8fd378a989", "photo-1651802556273-045a7850a538", "photo-1651802555975-67031cd73dde", "premium_photo-1729540634988-3cb61aac5f19", "photo-1651802556483-3048e4a9d8eb", "photo-1652754529761-34a0d4f5a469", "photo-1653009598143-fbde7ae4d42d", "premium_photo-1665394005441-d377ec768d0a", "photo-1651802555885-c72b256b3e3d", "photo-1651802555977-2e5b92d7e2e6", "photo-1651802556013-22e60a3ff853", "premium_photo-1723464003582-df09ab4ad03d",
-  "photo-1651802555938-8b0ecce95295", "photo-1653437488854-71dfead6236e", "photo-1493770348161-369560ae357d", "premium_photo-1663050996179-86096a38569e", "photo-1563865436874-9aef32095fad", "photo-1601315379734-425a469078de", "photo-1626266799007-f85d48ef3f05", "premium_photo-1668543548958-7865de5b9b12", "photo-1651256785548-f1cc03107d8e", "photo-1651256785757-d9e86c38f0e8", "photo-1710091691777-3115088962c4", "premium_photo-1665392923679-2cd4cb467f1e", "photo-1505575967455-40e256f73376", "photo-1759749597775-86547ca37b53", "photo-1651256785590-6a200ecbf64a", "premium_photo-1664476937112-905d1c25760c", "photo-1651256785544-fc012585e6a2", "photo-1711570810963-2a1554410c2b", "photo-1651256785597-4efe48fd71f9", "photo-1551183053-bf91a1d81141"
-].map((ref) => `${ref.startsWith("premium_") ? "https://plus.unsplash.com/" : "https://images.unsplash.com/"}${ref}?auto=format&fit=crop&w=900&q=85`);
+const localImages = import.meta.glob("./recipes/*.jpg", { eager: true, query: "?url", import: "default" });
+const imageById = new Map(
+  imageMap.map((entry) => [
+    entry.id,
+    { ...entry, image: localImages[`./recipes/${entry.localFile}`] }
+  ])
+);
 
 const templates = {
   pancake: (main) => ({ ingredients: [`1 xícara de farinha de trigo`, `1 ${main}`, "1 ovo", "1/2 xícara de leite"], steps: ["Misture os ingredientes até formar uma massa uniforme.", "Aqueça uma frigideira em fogo baixo.", "Coloque uma porção da massa.", "Doure dos dois lados e sirva."] }),
@@ -182,7 +176,7 @@ function makeRecipe(spec, category, id, categoryIndex) {
     ingredientsCount: prepared.ingredients.length,
     prepDifficulty: difficulty,
     temperature,
-    image: stableImageRefs[id - 1]
+    image: imageById.get(id)?.image
   };
 }
 
@@ -190,12 +184,32 @@ export const recipes = groups.flatMap(([category, specs]) => specs.map((spec, in
 
 export function validateRecipeImages(recipeList = recipes) {
   const images = recipeList.map((recipe) => recipe.image);
-  const photoKeys = images.map((image) => image?.match(/(?:photo|premium_photo)-[^?]+/)?.[0] || image);
-  const duplicates = photoKeys.filter((image, index) => photoKeys.indexOf(image) !== index);
-  if (duplicates.length > 0) {
-    console.warn("Imagens duplicadas:", [...new Set(duplicates)]);
+  const ids = recipeList.map((recipe) => recipe.id);
+  const duplicates = images.filter((image, index) => images.indexOf(image) !== index && image !== undefined);
+  const missingMappings = recipeList
+    .filter((recipe) => !imageById.has(recipe.id))
+    .map((recipe) => ({ id: recipe.id, title: recipe.title }));
+  const mismatchedMappings = recipeList
+    .filter((recipe) => imageById.get(recipe.id)?.recipe !== recipe.title)
+    .map((recipe) => ({ id: recipe.id, title: recipe.title, mappedRecipe: imageById.get(recipe.id)?.recipe }));
+  const missingLocalFiles = [...imageById.values()]
+    .filter((entry) => !entry.image)
+    .map((entry) => ({ id: entry.id, title: entry.recipe, path: entry.localFile }));
+
+  if (recipeList.length !== 100 || new Set(ids).size !== 100 || imageMap.length !== 100 || missingMappings.length || mismatchedMappings.length || missingLocalFiles.length) {
+    throw new Error("O mapeamento local das imagens não corresponde exatamente às 100 receitas.");
   }
-  return { total: images.length, unique: new Set(photoKeys).size, duplicates: [...new Set(duplicates)] };
+
+  return {
+    total: recipeList.length,
+    mapped: images.filter(Boolean).length,
+    unique: new Set(images).size,
+    duplicates: [...new Set(duplicates)],
+    missingMappings,
+    mismatchedMappings,
+    missingLocalFiles,
+    externalUrls: images.filter((image) => /^https?:\/\//i.test(image))
+  };
 }
 
 if (import.meta.env?.DEV) {
