@@ -1,12 +1,4 @@
-import imageMap from "./recipes/IMAGE-MAP.json";
-
-const localImages = import.meta.glob("./recipes/*.jpg", { eager: true, query: "?url", import: "default" });
-const imageById = new Map(
-  imageMap.map((entry) => [
-    entry.id,
-    { ...entry, image: localImages[`./recipes/${entry.localFile}`] }
-  ])
-);
+// As imagens das receitas ainda não estão versionadas no repositório.
 
 const templates = {
   pancake: (main) => ({ ingredients: [`1 xícara de farinha de trigo`, `1 ${main}`, "1 ovo", "1/2 xícara de leite"], steps: ["Misture os ingredientes até formar uma massa uniforme.", "Aqueça uma frigideira em fogo baixo.", "Coloque uma porção da massa.", "Doure dos dois lados e sirva."] }),
@@ -176,44 +168,20 @@ function makeRecipe(spec, category, id, categoryIndex) {
     ingredientsCount: prepared.ingredients.length,
     prepDifficulty: difficulty,
     temperature,
-    image: imageById.get(id)?.image
+    image: undefined
   };
 }
 
 export const recipes = groups.flatMap(([category, specs]) => specs.map((spec, index) => makeRecipe(spec, category, groups.slice(0, groups.findIndex(([name]) => name === category)).reduce((total, [, items]) => total + items.length, 0) + index + 1, index)));
 
 export function validateRecipeImages(recipeList = recipes) {
-  const images = recipeList.map((recipe) => recipe.image);
-  const ids = recipeList.map((recipe) => recipe.id);
-  const duplicates = images.filter((image, index) => images.indexOf(image) !== index && image !== undefined);
-  const missingMappings = recipeList
-    .filter((recipe) => !imageById.has(recipe.id))
-    .map((recipe) => ({ id: recipe.id, title: recipe.title }));
-  const mismatchedMappings = recipeList
-    .filter((recipe) => imageById.get(recipe.id)?.recipe !== recipe.title)
-    .map((recipe) => ({ id: recipe.id, title: recipe.title, mappedRecipe: imageById.get(recipe.id)?.recipe }));
-  const missingLocalFiles = [...imageById.values()]
-    .filter((entry) => !entry.image)
-    .map((entry) => ({ id: entry.id, title: entry.recipe, path: entry.localFile }));
-
-  if (recipeList.length !== 100 || new Set(ids).size !== 100 || imageMap.length !== 100 || missingMappings.length || mismatchedMappings.length || missingLocalFiles.length) {
-    throw new Error("O mapeamento local das imagens não corresponde exatamente às 100 receitas.");
-  }
-
+  const images = recipeList.map((recipe) => recipe.image).filter(Boolean);
   return {
     total: recipeList.length,
-    mapped: images.filter(Boolean).length,
+    mapped: images.length,
     unique: new Set(images).size,
-    duplicates: [...new Set(duplicates)],
-    missingMappings,
-    mismatchedMappings,
-    missingLocalFiles,
-    externalUrls: images.filter((image) => /^https?:\/\//i.test(image))
+    missingImages: recipeList.filter((recipe) => !recipe.image).map(({ id, title }) => ({ id, title }))
   };
-}
-
-if (import.meta.env?.DEV) {
-  validateRecipeImages();
 }
 
 export const categories = ["Todas", "Café da manhã", "Almoço", "Lanche", "Jantar", "Bebidas", "Sobremesas"];
