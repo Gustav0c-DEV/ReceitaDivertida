@@ -110,7 +110,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <div className={`app-shell ${profile.dark ? "dark-theme" : ""} ${profile.calm ? "calm-mode" : ""} font-${profile.font}`}>
         <Sidebar
           darkMode={profile.dark}
