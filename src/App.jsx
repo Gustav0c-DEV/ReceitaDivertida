@@ -12,6 +12,7 @@ import RemindersPage from "./pages/Reminders";
 import ProfilePage from "./pages/Profile";
 import LoginPage from "./pages/Login";
 import { recipes as recipeList } from "./data/recipes";
+import { MessageCircle } from "lucide-react";
 
 const defaultProfile = {
   dark: true,
@@ -184,6 +185,37 @@ function App() {
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>
+
+        <a
+          href="https://form.typeform.com/to/ZlYPxQRd"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Enviar feedback sobre o Receita Divertida"
+          title="Enviar feedback"
+          style={{
+            position: "fixed",
+            right: "24px",
+            bottom: "24px",
+            zIndex: 1000,
+            display: "inline-flex",
+            alignItems: "center",
+            justifyContent: "center",
+            gap: "9px",
+            minHeight: "48px",
+            padding: "0 18px",
+            borderRadius: "999px",
+            background: "#8fb394",
+            color: "#17231a",
+            fontWeight: 800,
+            fontSize: "14px",
+            textDecoration: "none",
+            boxShadow: "0 6px 20px rgba(0,0,0,.22)",
+            border: "1px solid rgba(255,255,255,.22)"
+          }}
+        >
+          <MessageCircle size={18} aria-hidden="true" />
+          <span>Enviar feedback</span>
+        </a>
       </div>
     </BrowserRouter>
   );
