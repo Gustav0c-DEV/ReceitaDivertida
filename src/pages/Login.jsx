@@ -58,6 +58,10 @@ export default function LoginPage({ onLogin }) {
     onLogin(user);
   };
 
+  const handleGuestAccess = () => {
+    onLogin({ name: "Visitante", email: "", guest: true });
+  };
+
   return (
     <main className="auth-page">
       <section className="auth-intro">
@@ -101,6 +105,33 @@ export default function LoginPage({ onLogin }) {
           {error && <p className="auth-error" role="alert">{error}</p>}
           <button className="primary-button auth-submit" type="submit">{mode === "login" ? "Entrar na minha cozinha" : "Criar minha conta"}</button>
         </form>
+
+        {mode === "login" && (
+          <div className="guest-access">
+            <button
+              type="button"
+              onClick={handleGuestAccess}
+              style={{
+                width: "100%",
+                minHeight: "48px",
+                marginTop: "14px",
+                padding: "12px 18px",
+                border: "1px solid var(--border-color, rgba(128, 128, 128, .35))",
+                borderRadius: "12px",
+                background: "transparent",
+                color: "inherit",
+                font: "inherit",
+                fontWeight: 700,
+                cursor: "pointer"
+              }}
+            >
+              Entrar sem conta
+            </button>
+            <p style={{ margin: "9px 0 0", textAlign: "center", fontSize: "0.82rem", opacity: 0.72 }}>
+              Acesse como visitante, sem cadastrar e-mail ou senha.
+            </p>
+          </div>
+        )}
 
         <p className="auth-privacy">Os dados da conta são salvos somente no armazenamento local deste navegador.</p>
       </section>
