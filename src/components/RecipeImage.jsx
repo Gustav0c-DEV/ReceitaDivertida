@@ -24,7 +24,7 @@ export default function RecipeImage({ src, alt = "", className = "" }) {
   if (failed) {
     return (
       <div className={`recipe-image-placeholder ${className}`} role="img" aria-label={alt || "Ilustração de comida"}>
-        <span className="recipe-food-emoji" aria-hidden="true">{getFoodEmoji(alt)}</span>
+        <span className="recipe-food-emoji" style={{ fontSize: "2.7rem", lineHeight: 1 }} aria-hidden="true">{getFoodEmoji(alt)}</span>
       </div>
     );
   }
