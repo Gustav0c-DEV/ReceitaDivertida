@@ -1,6 +1,7 @@
 import React, { useMemo } from "react";
 import { weekDays, mealOptions } from "../data/recipes";
 import RecipeImage from "./RecipeImage";
+import MealTypeIcon from "./MealTypeIcon";
 
 export default function Planner({ planner, onSelectCell, onClearCell }) {
   const rows = useMemo(() => {
@@ -10,7 +11,6 @@ export default function Planner({ planner, onSelectCell, onClearCell }) {
         const entry = planner[`${day}-${meal}`];
         const recipeId = typeof entry === "object" ? entry.recipeId : entry;
         const recipe = recipeId ? planner.recipeMap[recipeId] : null;
-
         return { day, meal, recipe, status: typeof entry === "object" ? entry.status : "Planejado" };
       })
     }));
@@ -20,14 +20,12 @@ export default function Planner({ planner, onSelectCell, onClearCell }) {
     <div className="planner-grid">
       <div className="planner-header">
         <div className="planner-label">Refeição</div>
-        {weekDays.map((day) => (
-          <div key={day} className="planner-day-header">{day}</div>
-        ))}
+        {weekDays.map((day) => <div key={day} className="planner-day-header">{day}</div>)}
       </div>
 
       {rows.map(({ meal, cells }) => (
         <div key={meal} className="planner-row">
-          <div className="planner-label">{meal}</div>
+          <div className="planner-label"><MealTypeIcon meal={meal} size={18} /><span>{meal}</span></div>
           {cells.map(({ day, recipe, status }) => (
             <button
               key={`${day}-${meal}`}
@@ -41,9 +39,7 @@ export default function Planner({ planner, onSelectCell, onClearCell }) {
                   <small>{recipe.title}</small>
                   <em>{status}</em>
                 </>
-              ) : (
-                <span className="planner-plus">＋</span>
-              )}
+              ) : <span className="planner-plus">＋</span>}
             </button>
           ))}
         </div>
