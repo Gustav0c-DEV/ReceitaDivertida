@@ -26,7 +26,7 @@ export default function PlannerModal({ open, recipes, selectedMeal, onClose, onC
             className="planner-choice"
             onClick={() => onChoose(recipe)}
           >
-            <RecipeImage src={recipe.image} className="planner-choice-image" />
+            <RecipeImage src={recipe.image} alt={recipe.title} className="planner-choice-image" />
             <div>
               <strong>{recipe.title}</strong>
               <small>{recipe.category} · {recipe.time} min</small>
