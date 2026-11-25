@@ -1,5 +1,5 @@
 import React from "react";
-import { Clock3 } from "lucide-react";
+import MealTypeIcon from "../components/MealTypeIcon";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import MealCard from "../components/MealCard";
@@ -63,7 +63,7 @@ export default function Home({ recipes, favorites, onToggleFavorite, planner, pr
           </> : <div className="empty-inline"><strong>Nenhuma refeição planejada</strong><span>Escolha uma receita no planejamento para ver a próxima aqui.</span><Link to="/planejamento" className="text-button">Abrir planejamento</Link></div>}
         </div>
 
-        <div className="today-summary"><div className="section-heading"><h2>Hoje</h2></div><span className="today-date">{formatDate()}</span><div className="mini-schedule">{todaysMeals.map((meal) => <div key={meal.meal} className="mini-row"><span>{meal.schedule}</span><strong>{meal.meal}</strong><span className="mini-status">{meal.status}</span></div>)}</div></div>
+        <div className="today-summary"><div className="section-heading"><h2>Hoje</h2></div><span className="today-date">{formatDate()}</span><div className="mini-schedule">{todaysMeals.map((meal) => <div key={meal.meal} className="mini-row"><span>{meal.schedule}</span><span className="meal-type-icon"><MealTypeIcon meal={meal.meal} size={17} /></span><strong>{meal.meal}</strong><span className="mini-status">{meal.status}</span></div>)}</div></div>
       </section>
 
       <section className="section-block">
