@@ -30,7 +30,7 @@ export default function RecipeDetails({ recipes, favorites, onToggleFavorite, on
 
       <div className="recipe-detail-layout">
         <div className="recipe-detail-visual">
-          <RecipeImage src={recipe.image} className="recipe-detail-photo" />
+          <RecipeImage src={recipe.image} alt={recipe.title} className="recipe-detail-photo" />
           <div className="detail-badge"><Clock3 size={14} /> {recipe.time} min</div>
         </div>
 
