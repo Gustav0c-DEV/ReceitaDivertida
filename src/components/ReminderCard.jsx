@@ -1,12 +1,16 @@
 import React from "react";
-import { Bell, BellOff } from "lucide-react";
+import { Bell } from "lucide-react";
+import MealTypeIcon from "./MealTypeIcon";
 
 export default function ReminderCard({ label, time, enabled, onToggle, onChange }) {
   return (
     <div className="reminder-card">
-      <div>
-        <strong>{label}</strong>
-        <p>Horário da refeição</p>
+      <div className="reminder-meal-label">
+        <span className="meal-type-icon"><MealTypeIcon meal={label} size={20} /></span>
+        <div>
+          <strong>{label}</strong>
+          <p>Horário da refeição</p>
+        </div>
       </div>
 
       <div className="reminder-actions">
@@ -18,4 +22,3 @@ export default function ReminderCard({ label, time, enabled, onToggle, onChange 
     </div>
   );
 }
-
