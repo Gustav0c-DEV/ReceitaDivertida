@@ -8,7 +8,7 @@ export default function RecipeCard({ recipe, favorite, onToggleFavorite }) {
   return (
     <article className="recipe-card">
       <div className="recipe-card-header">
-        <RecipeImage src={recipe.image} className="recipe-card-photo" />
+        <RecipeImage src={recipe.image} alt={recipe.title} className="recipe-card-photo" />
         <FavoriteButton active={favorite} onClick={() => onToggleFavorite(recipe.id)} />
       </div>
 
