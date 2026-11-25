@@ -16,7 +16,7 @@ export default function Sidebar({ darkMode, onToggleDarkMode, user, onLogout }) 
     <aside className="sidebar">
       <div className="brand-block">
         <NavLink to="/" className="brand-home" aria-label="Receita Divertida — início">
-          <img className="brand-logo" src="/images/recipes/Assets/Logo-transparent.png" alt="Receita Divertida" />
+          <img className="brand-logo" src="/images/recipes/Assets/receita-divertida-logo.jpg" alt="Receita Divertida" />
         </NavLink>
       </div>
 
